@@ -8,7 +8,7 @@
  * Return: number of digits printed
  */
 int print_hex(unsigned int n, unsigned int c)
-
+{
 	unsigned int a[8];
 	unsigned int i, m, sum;
 	char diff;
@@ -127,4 +127,4 @@ int print_p(va_list p)
 		}
 	}
 	return (count);
-
+}
